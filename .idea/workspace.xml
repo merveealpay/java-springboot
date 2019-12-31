@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VheYs6dJrxNpBvncQSJ0eC59kc" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MERVE\Desktop\basic-project\spring-mongo-rest-api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.merve.Application" />
+      <module name="spring-mongo-rest-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="" />
+      <created>1577709805189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577709805189</updated>
+      <workItem from="1577709808911" duration="2239000" />
+      <workItem from="1577804142814" duration="2137000" />
+      <workItem from="1577807269865" duration="6994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577819446462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577819446462" />
+    <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1577813186744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577813186744" />
+    <state x="627" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577819415175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577819415175" />
+    <state width="1865" height="387" key="GridCell.Tab.0.bottom" timestamp="1577820500967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
+    <state width="1865" height="387" key="GridCell.Tab.0.center" timestamp="1577820500967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="387" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
+    <state width="1865" height="387" key="GridCell.Tab.0.left" timestamp="1577820500967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="387" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
+    <state width="1865" height="387" key="GridCell.Tab.0.right" timestamp="1577820500967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="387" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
+    <state x="660" y="157" width="1141" height="883" key="SettingsEditor" timestamp="1577805676807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="660" y="157" width="1141" height="883" key="SettingsEditor/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577805676807" />
+    <state x="660" y="240" width="997" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577804681348" />
+    <state x="342" y="216" key="new project wizard" timestamp="1577710148157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577710148157" />
+  </component>
+</project>

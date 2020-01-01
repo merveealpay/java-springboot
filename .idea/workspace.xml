@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="" />
+    <list default="true" id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/api/KisiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/entity/Kisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/api/KisiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/entity/Kisi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/repository/KisiRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -46,7 +66,7 @@
       <recent name="C:\Users\MERVE\Desktop\basic-project\spring-mongo-rest-api" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.merve.Application" />
       <module name="spring-mongo-rest-api" />
@@ -54,6 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.merve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.merve.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,6 +118,7 @@
       <workItem from="1577709808911" duration="2239000" />
       <workItem from="1577804142814" duration="2137000" />
       <workItem from="1577807269865" duration="6994000" />
+      <workItem from="1577871960771" duration="6254000" />
     </task>
     <servers />
   </component>
@@ -120,9 +159,9 @@
     </state>
     <state x="660" y="157" width="1141" height="883" key="SettingsEditor/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577805676807" />
     <state x="660" y="240" width="997" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577804681348" />
-    <state x="342" y="216" key="new project wizard" timestamp="1577710148157">
+    <state x="342" y="74" key="new project wizard" timestamp="1577872066055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="216" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577710148157" />
+    <state x="342" y="74" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577872066055" />
   </component>
 </project>

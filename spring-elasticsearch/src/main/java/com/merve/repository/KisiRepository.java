@@ -11,7 +11,9 @@ import java.util.List;
 public interface KisiRepository extends ElasticsearchRepository<Kisi, String>{
 
     @Query("{\"bool\": {\"must\": [{\"match\": {\"ad\": \"?0\"}}]}}") //sadece adı örtüsen gelsin
-    List<Kisi> getByCustomQuery(String search);,
+    List<Kisi> getByCustomQuery(String search);
     //test icin: http://localhost:8080/kisi/merve
+
+    List<Kisi> findByAdLikeOrSoyadLike(String ad, String soyad);
 
 }

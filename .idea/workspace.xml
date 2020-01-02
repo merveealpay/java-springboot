@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/api/KisiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/entity/Kisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/resources/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/api/KisiController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/entity/Kisi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/repository/KisiRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/DataJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Adres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Kisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/repository/AdresRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,6 +45,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,7 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -118,7 +120,11 @@
       <workItem from="1577709808911" duration="2239000" />
       <workItem from="1577804142814" duration="2137000" />
       <workItem from="1577807269865" duration="6994000" />
-      <workItem from="1577871960771" duration="6254000" />
+      <workItem from="1577871960771" duration="6548000" />
+      <workItem from="1577909490854" duration="137000" />
+      <workItem from="1577909656675" duration="1005000" />
+      <workItem from="1577953268996" duration="2185000" />
+      <workItem from="1577955490908" duration="5138000" />
     </task>
     <servers />
   </component>
@@ -138,30 +144,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577819415175" />
-    <state width="1865" height="387" key="GridCell.Tab.0.bottom" timestamp="1577820500967">
+    <state width="1848" height="382" key="GridCell.Tab.0.bottom" timestamp="1577878867669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1865" height="387" key="GridCell.Tab.0.center" timestamp="1577820500967">
+    <state width="1848" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.0.center" timestamp="1577878867669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1865" height="387" key="GridCell.Tab.0.left" timestamp="1577820500967">
+    <state width="1848" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.0.left" timestamp="1577878867669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1865" height="387" key="GridCell.Tab.0.right" timestamp="1577820500967">
+    <state width="1848" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.0.right" timestamp="1577878867669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state x="660" y="157" width="1141" height="883" key="SettingsEditor" timestamp="1577805676807">
+    <state width="1848" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.1.bottom" timestamp="1577878867669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.1.center" timestamp="1577878867669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.1.left" timestamp="1577878867669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state width="1848" height="382" key="GridCell.Tab.1.right" timestamp="1577878867669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
+    <state x="190" y="103" width="1711" height="883" key="SettingsEditor" timestamp="1577955463984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="660" y="157" width="1141" height="883" key="SettingsEditor/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577805676807" />
-    <state x="660" y="240" width="997" height="714" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577804681348" />
-    <state x="342" y="74" key="new project wizard" timestamp="1577872066055">
+    <state x="190" y="103" width="1711" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577955463984" />
+    <state x="342" y="74" key="new project wizard" timestamp="1577954529892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="74" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577872066055" />
+    <state x="342" y="74" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577954529892" />
   </component>
 </project>

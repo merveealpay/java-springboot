@@ -2,35 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc96bca-f2fc-425a-a2cb-adb13332fcaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/DataJpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Adres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Kisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/repository/AdresRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/controller/KisiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/dto/KisiDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/service/Impl/KisiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/service/KisiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/src/main/java/com/merve/repository/KisiRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Adres.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Adres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Kisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/java/com/merve/entity/Kisi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-datajpa-postgresql/src/main/resources/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/repository/KisiRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-elasticsearch/target/classes/com/merve/repository/KisiRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mongo-rest-api/target/classes/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="javadb: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Projects\Java\basic-project\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,11 +83,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -61,17 +101,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.merve.service.Impl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MERVE\Desktop\basic-project\spring-mongo-rest-api" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.merve.Application" />
-      <module name="spring-mongo-rest-api" />
+  <component name="RunManager" selected="Application.DataJpaApplication">
+    <configuration name="DataJpaApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.merve.DataJpaApplication" />
+      <module name="spring-datajpa-postgresql" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,9 +132,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-datajpa-postgresql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.merve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.merve.DataJpaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-datajpa-postgresql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.merve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataJpaApplication" />
+      <item itemvalue="Spring Boot.c" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.DataJpaApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.DataJpaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +176,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3cba8116" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -124,7 +210,11 @@
       <workItem from="1577909490854" duration="137000" />
       <workItem from="1577909656675" duration="1005000" />
       <workItem from="1577953268996" duration="2185000" />
-      <workItem from="1577955490908" duration="5138000" />
+      <workItem from="1577955490908" duration="7110000" />
+      <workItem from="1578035174817" duration="6838000" />
+      <workItem from="1578050640109" duration="618000" />
+      <workItem from="1578053254493" duration="6117000" />
+      <workItem from="1578132360961" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -132,59 +222,93 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577819446462">
+    <state x="452" y="95" key="#Assign_Data_Sources" timestamp="1578133780224">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="95" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1578133780224" />
+    <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578133377860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577819446462" />
-    <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1577813186744">
+    <state x="414" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578133377860" />
+    <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1578059786316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577813186744" />
+    <state x="721" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578059786316" />
     <state x="627" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577819415175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="262" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577819415175" />
-    <state width="1848" height="382" key="GridCell.Tab.0.bottom" timestamp="1577878867669">
+    <state x="627" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578038588961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578038588961" />
+    <state width="1865" height="334" key="GridCell.Tab.0.bottom" timestamp="1578134800530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1848" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.0.center" timestamp="1577878867669">
+    <state width="1865" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578134800530" />
+    <state width="1865" height="334" key="GridCell.Tab.0.center" timestamp="1578134800530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1848" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.0.left" timestamp="1577878867669">
+    <state width="1865" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578134800530" />
+    <state width="1865" height="334" key="GridCell.Tab.0.left" timestamp="1578134800529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1848" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.0.right" timestamp="1577878867669">
+    <state width="1865" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578134800529" />
+    <state width="1865" height="334" key="GridCell.Tab.0.right" timestamp="1578134800530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="387" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577820500967" />
-    <state width="1848" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.1.bottom" timestamp="1577878867669">
+    <state width="1865" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578134800530" />
+    <state width="1865" height="306" key="GridCell.Tab.1.bottom" timestamp="1578062408130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="382" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.1.center" timestamp="1577878867669">
+    <state width="1865" height="306" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578062408130" />
+    <state width="1865" height="306" key="GridCell.Tab.1.center" timestamp="1578062408130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="382" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.1.left" timestamp="1577878867669">
+    <state width="1865" height="306" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578062408130" />
+    <state width="1865" height="306" key="GridCell.Tab.1.left" timestamp="1578062408130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="382" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state width="1848" height="382" key="GridCell.Tab.1.right" timestamp="1577878867669">
+    <state width="1865" height="306" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578062408130" />
+    <state width="1865" height="306" key="GridCell.Tab.1.right" timestamp="1578062408130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1848" height="382" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577878867669" />
-    <state x="190" y="103" width="1711" height="883" key="SettingsEditor" timestamp="1577955463984">
+    <state width="1865" height="306" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578062408130" />
+    <state width="1865" height="306" key="GridCell.Tab.2.bottom" timestamp="1578062271525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="306" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578062271525" />
+    <state width="1865" height="306" key="GridCell.Tab.2.center" timestamp="1578062271525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="306" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578062271525" />
+    <state width="1865" height="306" key="GridCell.Tab.2.left" timestamp="1578062271525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="306" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578062271525" />
+    <state width="1865" height="306" key="GridCell.Tab.2.right" timestamp="1578062271525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="306" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578062271525" />
+    <state width="236" height="590" key="HiddenNamespacesPopup" timestamp="1578132460932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="236" height="590" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1578132460932" />
+    <state x="760" y="103" width="1141" height="883" key="SettingsEditor" timestamp="1578048227074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="660" y="157" width="1141" height="883" key="SettingsEditor/0.0.1920.1040/-1024.76.1024.728@0.0.1920.1040" timestamp="1577805676807" />
-    <state x="190" y="103" width="1711" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577955463984" />
+    <state x="760" y="103" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578048227074" />
+    <state x="723" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578036508483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578036508483" />
     <state x="342" y="74" key="new project wizard" timestamp="1577954529892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

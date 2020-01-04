@@ -1,18 +1,30 @@
 package com.merve.entity;
 
-import lombok.*;
-import org.springframework.data.annotation.Id;
-
-import javax.persistence.*;
 import java.util.List;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
+@Entity
 @Table(name = "kisi")
-@Getter
-@Setter
-@ToString
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
 @EqualsAndHashCode(of = {"id"})
+@ToString
 
 public class Kisi {
     @Id
@@ -27,6 +39,6 @@ public class Kisi {
     private String soyad;
 
     @OneToMany
-    @JoinColumn(name = "kisi_id_adres")
-    private List<Adres> adresler;
+    @JoinColumn(name = "kisi_adres_id")
+    private List<Adres> adres;
 }

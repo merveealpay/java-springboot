@@ -1,4 +1,9 @@
 package com.merve.service;
 
-public class UserService {
+import com.merve.dto.UserDto;
+
+public interface UserService {
+
+    UserDto save(UserDto userDto);
+
 }

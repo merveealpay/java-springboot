@@ -1,4 +1,4 @@
-package com.merve.service;
+package com.merve;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
